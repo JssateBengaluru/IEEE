@@ -26,7 +26,59 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
- 
+  <style>
+    /* Change the header background to black */
+    #header {
+        background-color: black; /* Set header background to black */
+    }
+
+    /* Header text styling */
+    p {
+        color: white;
+        text-align: center;
+        font-size: large;
+    }
+
+    /* Navbar link styling */
+    .nav-menu a {
+        color: white; /* Ensure navbar text is white */
+    }
+
+    .nav-menu a:hover {
+        color: #4CAF50; /* Optional: Change navbar link color on hover */
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<!--==========================
+Header Section
+============================-->
+<header id="header">
+    <div >
+
+        <div id="logo" class="pull-left">
+            <!-- Uncomment below if you prefer to use a text logo -->
+            <p><img src="img/onlyjss.png" alt="" title="">  JSSATE - Bengaluru</p>
+        </div>
+
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="patrons.html">Patrons</a></li>
+                <li><a href="index.html">Venue</a></li>
+                <li><a href="brochure.html">Brochure</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <li class="buy-tickets"><a href="register.html">Register</a></li>
+            </ul>
+        </nav><!-- #nav-menu-container -->
+    </div>
+</header><!-- #header -->
+</head>
 </head>
 
 
@@ -64,12 +116,12 @@
 <div class="col-lg-12">
   <div class="card mb-4">
     <div class="card-body">
-      <h5 class="card-title text-muted text-uppercase text-center">REGISTRATION FEES</h5>
+      <h5 class="card-title text-muted text-uppercase text-center">Participation Type</h5>
       <div class="table-responsive">
         <table class="table table-bordered text-center">
           <thead>
-           <tr>
-              <th>Category</th>
+            <tr>
+              <th>Participation Type</th>
               <th>Early Bird</th>
               <th>Regular</th>
             </tr>
@@ -77,8 +129,8 @@
           <tbody>
             <tr>
               <td>IEEE Members (Academia)</td>
-              <td>Rs. 4800 + GST</td>
-              <td>Rs. 5600 + GST</td>
+              <td>Rs. 5000 + GST</td>
+              <td>Rs. 6000 + GST</td>
             </tr>
             <tr>
               <td>Non-IEEE Members (Academia)</td>
@@ -87,8 +139,8 @@
             </tr>
             <tr>
               <td>IEEE Members (Industry)</td>
-              <td>Rs. 6400 + GST</td>
-              <td>Rs. 7200 + GST</td>
+              <td>Rs. 7000 + GST</td>
+              <td>Rs. 8000 + GST</td>
             </tr>
             <tr>
               <td>Non-IEEE Members (Industry)</td>
@@ -98,7 +150,7 @@
             <tr>
               <td>Research Scholars/ UG & PG Students</td>
               <td>Rs. 4000 + GST</td>
-              <td>Rs. 4800 + GST</td>
+              <td>Rs. 5000 + GST</td>
             </tr>
             <tr>
               <td>Non-IEEE Research Scholars/ UG & PG Students</td>
